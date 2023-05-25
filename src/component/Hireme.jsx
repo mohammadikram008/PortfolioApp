@@ -5,7 +5,6 @@ import Contact from "./Contact";
 const Hireme = () => {
   const { Hireme } = content;
 
-
   return (
     <section className="bg-bg_light_primary">
       <div className="md:container px-5 pt-14">
@@ -36,13 +35,11 @@ const Hireme = () => {
           >
             <p className="leading-7">{Hireme.para}</p>
             <br />
-            <button
-              className="btn bg-dark_primary text-white"
-              
-            >
-             <a className=" bg-dark_primary text-white" href="#contact">{Hireme.btnText}</a> 
+            <button className="btn bg-dark_primary text-white">
+              <a className=" bg-dark_primary text-white" href="#contact">
+                {Hireme.btnText}
+              </a>
             </button>
-           
           </div>
         </div>
       </div>

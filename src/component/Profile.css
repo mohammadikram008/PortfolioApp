@@ -1,0 +1,23 @@
+
+  .profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0 2px 0px 0px var(--black) ;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px 0px 0 100px;
+  }
+  .profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+     
+  }
+  .profile-picture-background{
+    height: 98%;
+    width: 98%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

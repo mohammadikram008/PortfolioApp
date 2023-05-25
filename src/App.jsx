@@ -36,7 +36,7 @@ function App() {
       <Hireme />
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">Mohammadikram</h6>
+        <h6 className="mb-3">MohammadIkram</h6>
         <p>mohammadikram © All CopyRights Reserved 2022</p>
       </footer>
     </div>
